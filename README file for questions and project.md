@@ -2,6 +2,8 @@
 for mars electronics 2026 tasks
 
 This is Task 1 brief for all the questions,
+
+
 QUE 1..
 We used normal digitals pins as we needed ON/OFF functionality, All 3 leds are running at the same time with different delays and there time period of being ON/OFF
 differs as per the question first being the most rapid and third being the least, had to look into millis() because as mentioned multifuction couldn't have been done
