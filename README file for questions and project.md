@@ -16,4 +16,12 @@ output, analog input of potentiometer gets converted to integers ranging 0 to 10
 
 
 QUE 3..
+use of interrupt instead of basic polling is done because it increases the accuracy and to catch split second inputs, system state is used for splitting waiting for 
+timer and waiting for press to 2 parts
+
+
+Morse Code buzzer from alphabetical inputs
+serial.readstring is used to read the define message as text, swich case with 26 cases assigned as alphabets which map to their specific morse code is defined, '.' 
+'-' is defined in buzzer delay sound terms to get the message clearly, for better understanding there is required delay between individual alphabets for better 
+standard time gap in between the code and in betwwen the alphabets dotlen is used as a base time interval of 200ms and delay is assigned in its terms.
 
